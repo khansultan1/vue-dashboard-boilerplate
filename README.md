@@ -5,7 +5,27 @@
 <p>so sit back and take the pull and enjoy with VueJS </p>
 <p>Happy coding...</p>
 
-<p><strong>Structure of this boilerpalate</strong></p>
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+<p><strong>###  Structure of this boilerpalate</strong></p>
 <ul>
 <li>assets // where your future will be saved</li>
 <li>components // component of the application</li>
@@ -18,7 +38,7 @@
 <li>static // some external plugins or css</li>
 </ul>
 
-<p><strong>Plugins includes in this boilerpalate</strong></p>
+<p><strong>###  Plugins includes in this boilerpalate</strong></p>
 <ul>
 <li>VueJS</li>
 <li>Vue-router</li>
@@ -27,7 +47,7 @@
 </ul>
 
 
-<p><strong>OtherVue Plugins</strong></p>
+<p><strong>### Other Vue Plugins</strong></p>
 
 <li>Bootstrap</li>
 <li>jQuery</li>
