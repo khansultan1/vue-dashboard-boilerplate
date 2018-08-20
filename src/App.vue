@@ -1,0 +1,21 @@
+
+  <!-- App -->
+<template>
+  <!-- App -->
+       <router-view></router-view>
+
+  </template>
+ <script>
+
+
+
+export default {
+  data() {
+    return {
+      
+    }
+  },
+  
+ 
+}
+</script>

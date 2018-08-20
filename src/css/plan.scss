@@ -1,0 +1,101 @@
+.search {
+    width: 12em;
+    height: 2em;
+    padding: 0;
+    margin: 0;
+    line-height: 2em;
+    position: relative;
+    transition: all .25s linear;
+    float: right;
+    border: 1px solid #e2dede59;
+    input {
+      width: 9.5em;
+      height: 2em;
+      line-height: 1em;
+      padding: 0 0 0 .5em;
+      border: none;
+      outline: none;
+     background-color: #b3b3b34d;
+      font-size: 1em;
+      color: #aba7a7;
+      float: left;
+      transition: all .25s linear;
+    }
+    a {
+      width: 2em;
+      height: 2em;
+      line-height: 2em;
+      padding: 0;
+      color: rgb(252, 252, 252);
+      background:#999;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transition: all .25s linear;
+      &:before {
+        content: "\f002";
+        font-family: FontAwesome;
+        font-style: normal;
+      }
+      &:hover {
+        color: #eee;
+      }
+    }
+    &.collapsed {
+      width: 2em;
+      margin-left: 10em;
+      input {
+        width: 0;
+      }
+      a {
+        color: #fff;
+        cursor: pointer;
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+  .card--content {
+    margin: 5px;
+    z-index: 100;
+    display: inline-block;
+    cursor:pointer;
+    padding:5px;
+    border-radius: 5px;
+  }
+  .symbol{height: 30px;width:30px;border-radius: 50%;margin:5px;}
+        .sym div{
+            display: inline-block;
+            height: 30px;
+        }
+        .sym p{
+            margin-left:40px;
+            margin-top:5px;
+            position: absolute;
+        }
+  
+        #plan .available{
+    background-color: #b2f7a9;
+  }
+  #plan .booked{
+       background-color: #ffa399;
+  }
+  #plan .info{
+       background-color: #dcfa8b;
+  }
+  #plan .card-calendar{margin-top: 10px;}
+  
+  #fullCalendar {
+      min-height: 300px;
+    }
+  
+    .el-loading-spinner .path {
+      stroke: #66615B !important;
+    }
+    #fullCalendar .fc-widget-content.disabled{
+      background:#fcf8e3
+  }
