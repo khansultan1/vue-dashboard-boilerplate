@@ -1,6 +1,8 @@
 # vue-dashboard-boilerplate
 
-Hi, Welcome to Vue admin dashboard boilerplate, this dashboard basically designed for developers who want to start any kind of dashboard application this boilerplate is the best compiled for all necessary plugins and templates you required for an application you can just take the pull and start developing your application from day-1   so sit back and take the pull and enjoy with VueJS Happy coding
+ <h2>Hi, Welcome to Vue admin dashboard boilerplate,</h2>
+<p>This dashboard basically designed for developers who want to start any kind of dashboard application this boilerplate is the best compiled for all necessary plugins and templates you required for an application you can just take the pull and start developing your application from day-1</p>
+<p>so sit back and take the pull and enjoy with VueJS Happy coding...</p>
 
 
 <p><strong>Structure of this boilerpalate</strong></p>
@@ -25,7 +27,7 @@ Hi, Welcome to Vue admin dashboard boilerplate, this dashboard basically designe
 </ul>
 
 
-<p><strong>OtherVue Plugins</p>/strong>
+<p><strong>OtherVue Plugins</strong></p>
 
 <li>Bootstrap</li>
 <li>jQuery</li>
